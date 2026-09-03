@@ -1,0 +1,9 @@
+# Render Blueprint — one-click deploy to a free Render web service.
+# No native modules: node:sqlite is built into Node 22.5+, so build is fast.
+services:
+  - type: web
+    name: restaurant-review-nlp
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm run seed && npm start
