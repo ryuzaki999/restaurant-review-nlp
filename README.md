@@ -6,7 +6,7 @@ Natural Language Processing (NLP).
 
 > ## 🌐 🔴 Live Demo
 >
-> **`https://<your-app>.onrender.com`** *(replace after deploying — see ☁️ Deploy below)*
+> **`https://restaurant-review-nlp.onrender.com`** (live) 👉 Try: [`GET /api/restaurants`](https://restaurant-review-nlp.onrender.com/api/restaurants)
 >
 > 🔑 Try it: `GET /api/restaurants` · `POST /api/reviews` (auto sentiment)
 
